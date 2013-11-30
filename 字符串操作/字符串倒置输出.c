@@ -9,9 +9,10 @@
 int main(int argc, char const *argv[])
 {
     char a[100];
+    int i;
     // 输入字符串
     scanf("%s", a);
-    for (int i = strlen(a)-1; i >= 0; i--)
+    for (i = strlen(a)-1; i >= 0; i--)
     {
         printf("%c", a[i]);
     }
