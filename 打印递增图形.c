@@ -13,11 +13,11 @@
 
 int main(int argc, char const *argv[])
 {
-    char *s[2]={"****","****"};
+    char *s[2] = { "****", "****" };
     // *s[1]用来计数, 根据*s[0]所指位置输出
-    while(*s[1] !='\0')
+    while(*s[1] != '\0')
     {
-        printf("%s\n",s[0]+strlen(s[1])-1);
+        printf("%s\n", s[0]+strlen(s[1])-1);
         s[1]++;
     }
 }
